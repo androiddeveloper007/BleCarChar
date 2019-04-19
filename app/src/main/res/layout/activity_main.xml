@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/start_background">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_title_system"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/ImageButton_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/button_selector_back"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="取消"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/TextView_system_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/activation"
+                android:textSize="20dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bluetooth1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open"
+            android:layout_marginTop="14dp"
+            android:textSize="15dp"
+            android:textColor="@color/text_color_tip"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_addFalse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/prompt_failure"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_found_device"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/text_color_tip"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/TextView_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="27.5dp"
+        android:layout_marginRight="27.5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_large"
+        android:gravity="center"
+        android:text="@string/cancle"
+        android:textSize="15dp"
+        android:textColor="@color/text_color_tip" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/TextView_definite"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="27.5dp"
+        android:layout_marginRight="27.5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_large"
+        android:gravity="center"
+        android:text="@string/again"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">CarBluetooth</string>
+
+    <string name="start_message">汽车座椅舒适系统</string>
+    <string name="activation">激活</string>
+    <string name="definite">确定</string>
+    <string name="cancle">取消</string>
+    <string name="enter">进入</string>
+    <string name="add">添加设备</string>
+    <string name="add_success">设备添加成功</string>
+    <string name="not_found_device">未搜索到设备，请检查开关是否打开</string>
+    <string name="again">再试一次</string>
+    <string name="open">请开启手机蓝牙，打开您的设备</string>
+    <string name="setting">设置</string>
+    <string name="management">设备管理</string>
+    <string name="about">关于</string>
+    <string name="Main_drive">主驾席</string>
+    <string name="Vice_driver">副驾席</string>
+    <string name="delete">删除设备</string>
+    <string name="delete_sure">确定删除设备？</string>
+    <string name="device">设备名称</string>
+    <string name="manufacturer">制造商</string>
+    <string name="Instructions">操作说明</string>
+    <string name="manufacturer_detail">智能汽车座椅舒适系统(腰部支撑按摩)</string>
+    <string name="Instructions_detail">深圳炜达汽车技术有限公司</string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="massage">按摩</string>
+    <string name="lumbar_support">腰部支撑</string>
+    <string name="aeration">通风</string>
+    <string name="heating">加热</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+
+
+    <string name="unsupport_ble">您的设备不支持蓝牙</string>
+    <string name="open_ble_tips">您的蓝牙尚未开启,请开启</string>
+    <string name="not_check_ble_open">未检测到蓝牙已开启,请重试</string>
+    <string name="binding">正在绑定</string>
+    <string name="manual_input_tips1">请输入完整的设备编码</string>
+
+    <!--蓝牙异常-->
+    <string name="ble_read_error">参数读取失败</string>
+    <string name="ble_bind_error">设备登陆失败</string>
+    <string name="ble_restore_error">设备已被恢复出厂化</string>
+    <string name="ble_connect_faiure">蓝牙连接失败</string>
+    <string name="ble_read_timeout">参数读取超时</string>
+    <string name="ble_params_error">参数错误</string>
+
+    <!--错误信息String放在这里-->
+    <string name="open_lock_faild">开锁失败</string>
+    <string name="user_not_login">用户未登录</string>
+    <string name="please_check_net_enable">请检查网络时候可用</string>
+    <string name="please_check_ble_enable">请检查蓝牙是否开启</string>
+    <string name="please_check_ble_connect">设备尚未连接</string>
+    <string name="params_error">参数错误</string>
+    <string name="ble_connecting">正在连接中</string>
+    <string name="key_pwd_already_exists">钥匙已存在</string>
+    <string name="key_user_exceeds_limit">钥匙数已超出上限</string>
+    <string name="not_find_device">未发现设备</string>
+    <string name="bind_ble_device_faild">绑定设备失败</string>
+    <string name="device_operation_failure">操作失败</string>
+    <string name="admin_pwd_error">管理员密码错误</string>
+    <string name="pwd_error">密码格式有误</string>
+    <string name="please_check_location_enable">请检查定位是否开启</string>
+    <string name="device_had_bind">设备已被绑定</string>
+    <string name="device_had_restore">设备已恢复出厂化设置</string>
+    <string name="device_restore_faild">设备恢复出厂化设置失败</string>
+    <string name="reading_device_param">正在读取设备信息,请稍后...</string>
+    <string name="create_temp_pwd_faild">创建临时密码失败...</string>
+    <string name="temp_pwd_exceeds_limits">临时密码生成已达10次上限，等待下一个小时即可重新生成</string>
+    <string name="ble_connect_faild">蓝牙连接失败</string>
+    <string name="key_not_exists">钥匙已过期或不存在</string>
+    <string name="key_fingerprint_fulled">指纹钥匙已超出上限</string>
+    <string name="key_iccard_fulled">IC卡钥匙已超出上限</string>
+    <string name="operation_time_out">操作超时</string>
+
+
+    <string name="unopen_location_title">定位服务未开启</string>
+    <string name="unopen_location_msg">定位服务被关闭,无法搜索设备,请开启定位服务</string>
+    <string name="complate">好的</string>
+
+
+    <string name="ble_not_supported">该设备暂不支持蓝牙4.0</string>
+    <string name="error_bluetooth_not_supported">该设备暂不支持蓝牙4.0</string>
+    <string name="failure_setup">请连接设备或重新连接设备</string>
+    <string name="connecting">连接中...</string>
+    <string name="disconnecting">断开中...</string>
+
+
+</resources>

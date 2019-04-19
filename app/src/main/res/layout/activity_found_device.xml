@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/start_background">
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout_title_system"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/ImageButton_back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_selector_back"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/TextView_system_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="@string/start_message"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发现设备"
+            android:textColor="@color/text_color"
+            android:textSize="16dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TextView_enter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="27.5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="27.5dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_large"
+        android:gravity="center"
+        android:text="@string/definite"
+        android:textSize="18dp" />
+
+</RelativeLayout>
